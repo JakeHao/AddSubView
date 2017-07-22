@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AddSubView">
+        <attr name="textview_width" format="reference|dimension" />
+        <attr name="add_width" format="reference|dimension" />
+        <attr name="add_background" format="reference" />
+        <attr name="sub_width" format="reference|dimension" />
+        <attr name="sub_background" format="reference" />
+        <attr name="min_num" format="integer" />
+        <attr name="max_num" format="integer" />
+        <attr name="digits" format="string" />
+        <attr name="is_edit" format="boolean" />
+        <attr name="line_color" format="reference|color" />
+        <attr name="line_width" format="reference|dimension" />
+    </declare-styleable>
+</resources>

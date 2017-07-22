@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jake.addsubview.MainActivity">
+
+    <com.jake.library.AddSubView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        app:add_width="50dp"
+        app:digits="-0123456789"
+        app:max_num="10"
+        app:min_num="-5"
+        app:rv_cornerRadius="2dp"
+        app:rv_strokeColor="@color/divider_color"
+        app:rv_strokeWidth="0.5dp"
+        app:is_edit="false"
+        app:line_color="@color/colorPrimary"
+        app:sub_width="50dp"
+        app:textview_width="70dp" />
+
+
+</FrameLayout>
